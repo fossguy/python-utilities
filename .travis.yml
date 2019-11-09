@@ -17,4 +17,4 @@ before_install:
   - pip install -U pip
   - pip install -U yapf
 script:
-  - python -m yapf --diff --recursive .
+  - python -m yapf --in-place --recursive .
