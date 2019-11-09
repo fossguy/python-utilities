@@ -15,7 +15,6 @@ limitations under the License.
 '''
 import sys
 
-
 def main():
     word = sys.argv[1]
     print(word[0].upper() + word[1:len(word)])
